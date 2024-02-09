@@ -1,1 +1,142 @@
+html {
+    font-size: 16;
+}
 
+body {
+    margin: 0;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+#sizePorsche {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    width: 6rem;
+}
+
+#setToRightPos {
+    display: flex;
+    margin: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#setPosLoup {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#topFlexBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+#outerFlexbox {
+    display: flex;
+}
+
+#h2TextPorsche {
+    margin: 0;
+}
+
+#h3TextPorsche {
+    margin: 0;
+}
+
+#porscheBg {
+    background-image: url(MTK02115.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: center center;
+}
+
+#efwefw {
+    width: 100%;
+}
+
+#ergegr {
+    position: relative;
+}
+
+#gerwiniwng {
+    position: absolute;
+    width: 300px;
+    bottom: 55%;
+    right: 65%;
+}
+
+#sizeOfInfos {
+    font-size: 3rm;
+}
+
+#efwefwefw {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.grid-container {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.combined {
+    grid-column: span 2;
+}
+
+
+
+.grid-containerDown {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 600px);
+    gap: 1rem;
+}
+
+.grid-itemDown {
+    border-radius: 4rem;
+    background-color: #ccc;
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-itemDown>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.obereDrei {
+    display: flex;
+}
+
+.untereDrei {
+    display: flex;
+}
