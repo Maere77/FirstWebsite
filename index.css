@@ -48,15 +48,12 @@ header {
 #outerFlexbox {
     display: flex;
 }
-
 #h2TextPorsche {
-    margin: 0;
+    margin: 1rem 0 0 0;
 }
-
 #h3TextPorsche {
     margin: 0;
 }
-
 #porscheBg {
     background-image: url(MTK02115.jpg);
     background-repeat: no-repeat;
@@ -64,35 +61,26 @@ header {
     height: auto;
     background-position: center center;
 }
-
 #efwefw {
     width: 100%;
 }
-
 #ergegr {
     position: relative;
 }
-
 #gerwiniwng {
     position: absolute;
     width: 300px;
     bottom: 55%;
     right: 65%;
 }
-
 #sizeOfInfos {
     font-size: 3rm;
 }
-
 #efwefwefw {
     font-size: 5rem;
     font-weight: bold;
     text-align: center;
 }
-
-
-
-
 .grid-container {
     font-size: 2rem;
     display: grid;
@@ -100,26 +88,20 @@ header {
     grid-gap: 10px;
     padding: 10px;
 }
-
 .grid-item {
     background-color: #f0f0f0;
     padding: 0 80px;
     text-align: center;
 }
-
 .combined {
     grid-column: span 2;
 }
-
-
-
 .grid-containerDown {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 600px);
     gap: 1rem;
 }
-
 .grid-itemDown {
     border-radius: 4rem;
     background-color: #ccc;
@@ -127,16 +109,20 @@ header {
     padding: 20px;
     text-align: center;
 }
-
 .grid-itemDown>img {
     max-width: 100%;
     max-height: 100%;
 }
-
 .obereDrei {
     display: flex;
 }
-
 .untereDrei {
     display: flex;
+}
+#blackmovingbox  {
+background-color: black;
+width: 5rem;
+position: absolute;
+right: 130%;
+top: 40%;
 }
