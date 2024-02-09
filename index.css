@@ -5,11 +5,11 @@ html {
 
 
 body {
+    background-color: black;
     margin: 0;
 }
 
 main {
-    background-color: black;
 }
 
 nav a{
@@ -166,7 +166,7 @@ height: 800px;
     position: absolute;
     left: 12%;
     background-color: #4b4b4b;
-    top: 128%;
+    top: 131%;
 }
 .imgSize911Spyder {
     width: 50%;
@@ -199,4 +199,9 @@ height: 800px;
 }
 #setSizeSoThatTherseAMargin {
     margin-right: 2rem;
+}
+
+
+.allTexts {
+    color: white;
 }
